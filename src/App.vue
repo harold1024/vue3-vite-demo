@@ -1,18 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3.0 + Vite" />
-  <List />
+  <Composition />
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
-import List from "./components/list.vue";
+import Composition from "./components/composition.vue";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
-    List,
+    Composition,
   },
 };
 </script>
