@@ -38,13 +38,13 @@ import { reactive, computed, toRefs ,ref} from "vue"
 import useAddRemove from './addRemove'
 import useMousePosition from "./mouse"
 import useScroll from "./scroll"
-// import storage from './local'
+import storage from './local'
 export default {
 setup() {
     const { x, y } = useMousePosition();
     const {top} = useScroll()
-    // const state = storage('todo-vue3',{
-    const state = reactive({
+    const state = storage('todo-vue3',{
+    // const state = reactive({
     todos: [
         {
         id: "1",

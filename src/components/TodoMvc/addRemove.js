@@ -1,6 +1,5 @@
 export default function (state) {
     function addTodo() {
-        console.log(123)
         var value = state.newTodo && state.newTodo.trim();
         if (!value) {
             return;

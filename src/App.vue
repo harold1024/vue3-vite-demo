@@ -10,7 +10,7 @@
 import HelloWorld from "./components/HelloWorld.vue";
 import Composition from "./components/Composition.vue";
 import AsyncSuspense from "./components/Suspense/index.vue";
-import TodoMvc from "./components/TodoMvc/indev.vue"
+import TodoMvc from "./components/TodoMvc/indev.vue";
 
 export default {
   name: "App",
